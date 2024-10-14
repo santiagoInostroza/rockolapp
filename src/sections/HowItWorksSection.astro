@@ -1,0 +1,46 @@
+---
+import BtnPrimary from '../components/BtnPrimary.astro'
+---
+
+<section class="mt-48">
+    <h2 class="text-4xl font-bold text-gray-500">
+       ¿Cómo funciona ?
+    </h2>
+    <div class="grid grid-cols-4 mt-8 gap-16 ">
+        <div>
+            <h3 class="font-bold h-10">
+                Paso 1: Ingreso al sistema:
+            </h3>
+            <p class="mt-8 leading-relaxed tracking-widest text-sm text-gray-500">                
+                 Los clientes del local escanean un código de barras que les da acceso a la lista de canciones disponibles en ese establecimiento.
+            </p>
+        </div>
+        <div>
+            <h3 class="font-bold h-10">
+                Paso 2: Compra de fichas: 
+            </h3>
+            <p class="mt-8  text-sm text-gray-500 leading-relaxed tracking-widest">     
+                Para poder seleccionar una canción, el cliente debe comprar fichas, ya sea en la app o directamente en el local. Cada ficha representa una opción de canción que el cliente puede elegir.
+            </p>
+        </div>
+        <div>
+            <h3 class="font-bold h-10">
+                Paso 3: Selecciona tu canción: 
+            </h3>
+            <p class="mt-8 leading-relaxed tracking-widest text-sm text-gray-500">     
+               Una vez compradas las fichas, el usuario puede escoger entre las canciones disponibles en el local. Cada canción seleccionada se añadirá a la fila de espera, donde podrá ver su posición y el tiempo estimado para que suene.
+            </p>
+        </div>
+        <div>
+            <h3 class="font-bold h-10">
+                Paso 4: Seguimiento en tiempo real:
+            </h3>
+            <p class="mt-8 leading-relaxed tracking-widest text-sm text-gray-500">     
+                Los usuarios pueden seguir el progreso de su selección desde su celular, viendo cuándo será reproducida su canción y disfrutando de la música en el local.
+            </p>
+        </div>
+    </div>
+    <div class="flex justify-center mt-8">
+        <BtnPrimary display="Descargar App" to_id="download-app" />
+    </div>
+</section>

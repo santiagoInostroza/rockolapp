@@ -1,0 +1,25 @@
+---
+import HeroLogo from "../components/HeroLogo.astro"
+import BtnPrimary from "../components/BtnPrimary.astro"
+import BtnSecondary from "../components/BtnSecondary.astro"
+---
+<section>
+    <div class="gap-4 mt-48 text-gray-600 w-[950px] mx-auto">
+        <div class="w-full">
+            <div class="text-6xl mx-auto px-5 mt-8 font-bold">
+                <span class="text-primary">¡La música que todos quieren,</span> 
+                en el momento que la quieren!
+             </div>
+             <div class="mt-16 text-gray-500 w-3/4 mx-auto leading-relaxed tracking-widest">
+                 Con Rockolapp, los locales pueden ofrecer música a la carta, mientras que los usuarios pueden escoger las canciones de su lugar favorito.
+             </div>
+             <div class="flex mt-20 grid-cols-2 gap-4 justify-center text-sm">
+                <BtnPrimary display="Rockolap en tu local" to_id="join-now" />
+                <BtnSecondary display=" Descarga la app" to_id="download-app" />
+            </div>
+         </div>
+        
+    </div>
+  
+
+</section>

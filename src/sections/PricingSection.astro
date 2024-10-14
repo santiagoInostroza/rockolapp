@@ -1,0 +1,127 @@
+---
+import BtnPrimary from '../components/BtnPrimary.astro'
+import BtnSecondary from '../components/BtnSecondary.astro'
+---
+
+<section class="mt-48">
+    <h3 class="text-4xl text-gray-500 text-center">
+        Elige el plan ideal
+    </h3>
+
+    <div class="grid grid-cols-3 mt-12 gap-16 ">
+        <div class="border border-primary rounded p-4 shadow flex flex-col justify-between">
+            <div>
+                    
+                <h3 class="font-bold h-10">
+                    Pack 1: Básico
+                </h3>
+                <p>
+                    Incluye: Una lista curada de canciones para locales con más movimiento y ambiente animado.
+                </p>
+                <p>
+                    Ideal para: Bares de alto tráfico, pubs y restaurantes con música activa.
+                </p>
+                <p>
+                    Caracteristicas
+                </p>
+                <ul>
+                    <li class="ml-4 leading-relaxed tracking-widest text-sm text-gray-500">                
+                        Acceso a 100 canciones populares.
+                    </li>
+                    <li class="ml-4 leading-relaxed tracking-widest text-sm text-gray-500">                
+                        Soporte básico para gestión de canciones.
+                    </li>
+                    <li class="ml-4 leading-relaxed tracking-widest text-sm text-gray-500">                
+                        20% de comisión por canción
+                    </li>
+                    <li class="ml-4 leading-relaxed tracking-widest text-sm text-gray-500">                
+                        Resúmenes diarios
+                    </li>
+                </ul>
+                <p>
+                    Precio: $29/mes
+                </p>
+                
+            </div>
+            <div class="flex justify-center mt-8">
+                <BtnPrimary display="Comprar" to_id="join-now" />
+            </div>
+        </div>
+
+        <div class="border border-primary rounded p-4 shadow flex flex-col justify-between">
+            <div>
+                <h3 class="font-bold h-10">
+                    Pack 2: Intermedio
+                </h3>
+                <p>
+                    Incluye: Una lista curada de canciones para locales con más movimiento y ambiente animado.
+                </p>
+                <p>
+                    deal para: Bares de alto tráfico, pubs y restaurantes con música activa.
+                </p>
+                <p>
+                    Caracteristicas
+                </p>
+                <ul>
+                    <li class="ml-4 leading-relaxed tracking-widest text-sm text-gray-500">                
+                        Acceso a 250 canciones populares y géneros variados.
+                    </li>
+                    <li class="ml-4 leading-relaxed tracking-widest text-sm text-gray-500">                
+                        Soporte prioritario.
+                    </li>
+                    <li class="ml-4 leading-relaxed tracking-widest text-sm text-gray-500">                
+                        30% de comisión por canción
+                    </li>
+                    <li class="ml-4 leading-relaxed tracking-widest text-sm text-gray-500">                
+                        Resúmenes diarios detallados de ganancias y actividad.
+                    </li>
+                </ul>
+                <p>
+                    Precio: $59/mes
+                </p>
+                
+            </div>
+            <div class="flex justify-center mt-8">
+                <BtnPrimary display="Comprar" to_id="join-now" />
+            </div>
+        </div>
+
+        <div class="border border-primary rounded p-4 shadow flex flex-col justify-between">
+                <div>
+                <h3 class="font-bold h-10">
+                    Plan Personalizado
+                </h3>
+                <p>
+                    Incluye: Selección 100% personalizada de canciones según el perfil y preferencia del local.
+                </p>
+                <p>
+                    Ideal para: Locales con un estilo único que desean controlar al 100% su lista de reproducción.
+                </p>
+                <span>
+                    Caracteristicas
+                </span>
+                <ul>
+                    <li class="ml-4 leading-relaxed tracking-widest text-sm text-gray-500">                
+                        Acceso a un catálogo ilimitado de canciones.
+                    </li>
+                    <li class="ml-4 leading-relaxed tracking-widest text-sm text-gray-500">                
+                        Soporte dedicado con consultoría musical personalizada.
+                    </li>
+                    <li class="ml-4 leading-relaxed tracking-widest text-sm text-gray-500">                
+                        50% de comisión por canción
+                    </li>
+                    <li class="ml-4 leading-relaxed tracking-widest text-sm text-gray-500">                
+                        Análisis detallado de ganancias, popularidad de canciones y comportamiento de clientes.
+                    </li>
+                </ul>
+                <p>
+                    Precio: $99/mes
+                </p>
+            </div>
+            <div class="flex justify-center mt-8">
+                <BtnPrimary display="Comprar" to_id="join-now" />
+            </div>
+        </div>
+    </div>
+   
+</section>
